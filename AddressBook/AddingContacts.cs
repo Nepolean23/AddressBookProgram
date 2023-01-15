@@ -8,9 +8,10 @@ namespace AddressBook
 {
     public class AddingContacts
     {
-        public static void PersonDetails()
+        CreatingContacts contacts = new CreatingContacts();
+        public  void PersonDetails()
         {
-            CreatingContacts contacts = new CreatingContacts();
+           
             Console.WriteLine("Enter your FirstName :");
             contacts.firstName = Console.ReadLine();
 
@@ -34,6 +35,8 @@ namespace AddressBook
 
             Console.WriteLine("Enter your ZipCode :");
             contacts.zipcode = Convert.ToInt32(Console.ReadLine());
+
+            
 
             
         }
