@@ -15,9 +15,19 @@ using System;
 
 //AddingOfMultipleCompany
 
-AddingOfMultiplePersonToAddressBook multiplecompany=new AddingOfMultiplePersonToAddressBook();
-multiplecompany.PersonDetails();
-multiplecompany.ViewContact();
-multiplecompany.EditContact();
-multiplecompany.DeleteContact();
-multiplecompany.Display();
+//AddingOfMultiplePersonToAddressBook multiplecompany=new AddingOfMultiplePersonToAddressBook();
+//multiplecompany.PersonDetails();
+//multiplecompany.ViewContact();
+//multiplecompany.EditContact();
+//multiplecompany.DeleteContact();
+//multiplecompany.Display();
+
+//Refactor Code of MultipleCompany
+
+RefactorToAddMultipleAddressBook addressBook= new RefactorToAddMultipleAddressBook();
+addressBook.PersonDetails();
+addressBook.display();
+addressBook.EditContact();
+addressBook.DeleteContact();
+addressBook.CreateAddressBook();
+addressBook.ChangeAddressBook();
