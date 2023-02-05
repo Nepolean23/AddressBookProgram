@@ -68,18 +68,32 @@ using System;
 //addressbook.Count();
 
 //Ability to view persons in city or state
-AbilityToViewMultipleAddressBook addressBook= new AbilityToViewMultipleAddressBook();
-addressBook.AddDetails("Engineer", "Sartaj", "Khan", "Whitefield", "Nagpur", "Maharashtra", 4400002, 9424777313, "nlean1996@gmail.com");
-addressBook.AddDetails("Engineer", "Abhishek", "Jadhav", "Bandra", "Mumbai", "Maharashtra", 560464, 1236547899, "nlean1996@gmail.com");
-addressBook.AddDetails("Engineer", "Shivraj", "Gawda", "Malleshwaram", "Bengaluru", "karnataka", 560066, 9424464313, "nlean1996@gmail.com");
-addressBook.AddDetails("Engineer", "Rajesh", "Singh", "GTNagar", "pune", "Maharashtra", 564566, 9433777313, "nlean1996@gmail.com");
-addressBook.AddDetails("Engineer", "Vivek", "Singh", "HSR", "Bengaluru", "karnataka", 560996, 9424777315, "nlean1996@gmail.com");
-addressBook.AddDetails("Engineer", "Siddhant", "Singh", "City Centre", "Noida", "U.P.", 458963, 9425477313,"nlean1996@gmail.com");
-Console.WriteLine("Enter Engineer Address Book Name : ");
-string AddressBook = Console.ReadLine();
-addressBook.AddressBook(AddressBook);
-addressBook.ComputeDetails();
-addressBook.Search();
-addressBook.Count();
+//AbilityToViewMultipleAddressBook addressBook= new AbilityToViewMultipleAddressBook();
+//addressBook.AddDetails("Engineer", "Sartaj", "Khan", "Whitefield", "Nagpur", "Maharashtra", 4400002, 9424777313, "nlean1996@gmail.com");
+//addressBook.AddDetails("Engineer", "Abhishek", "Jadhav", "Bandra", "Mumbai", "Maharashtra", 560464, 1236547899, "nlean1996@gmail.com");
+//addressBook.AddDetails("Engineer", "Shivraj", "Gawda", "Malleshwaram", "Bengaluru", "karnataka", 560066, 9424464313, "nlean1996@gmail.com");
+//addressBook.AddDetails("Engineer", "Rajesh", "Singh", "GTNagar", "pune", "Maharashtra", 564566, 9433777313, "nlean1996@gmail.com");
+//addressBook.AddDetails("Engineer", "Vivek", "Singh", "HSR", "Bengaluru", "karnataka", 560996, 9424777315, "nlean1996@gmail.com");
+//addressBook.AddDetails("Engineer", "Siddhant", "Singh", "City Centre", "Noida", "U.P.", 458963, 9425477313,"nlean1996@gmail.com");
+//Console.WriteLine("Enter Engineer Address Book Name : ");
+//string AddressBook = Console.ReadLine();
+//addressBook.AddressBook(AddressBook);
+//addressBook.ComputeDetails();
+//addressBook.Search();
+//addressBook.Count();
 
+//Ability to get number of contact persons
+AbilityToViewContactPersons contactPersons=new AbilityToViewContactPersons();
+contactPersons.AddDetails("Engineer", "Sartaj", "Khan", "Whitefield", "Nagpur", "Maharashtra", 4400002, 9424777313, "nlean1996@gmail.com");
+contactPersons.AddDetails("Engineer", "Abhishek", "Jadhav", "Bandra", "Mumbai", "Maharashtra", 560464, 1236547899, "nlean1996@gmail.com");
+contactPersons.AddDetails("Engineer", "Shivraj", "Gawda", "Malleshwaram", "Bengaluru", "karnataka", 560066, 9424464313, "nlean1996@gmail.com");
+contactPersons.AddDetails("Engineer", "Rajesh", "Singh", "GTNagar", "pune", "Maharashtra", 564566, 9433777313, "nlean1996@gmail.com");
+contactPersons.AddDetails("Engineer", "Vivek", "Singh", "HSR", "Bengaluru", "karnataka", 560996, 9424777315, "nlean1996@gmail.com");
+contactPersons.AddDetails("Engineer", "Siddhant", "Singh", "City Centre", "Noida", "U.P.", 458963, 9425477313, "nlean1996@gamil.com");
+Console.WriteLine("Enter Engineer Address Book Name : ");
+string addressBook = Console.ReadLine();
+contactPersons.AddressBook(addressBook);
+contactPersons.ComputeDetails();
+contactPersons.Search();
+contactPersons.Count();
 
