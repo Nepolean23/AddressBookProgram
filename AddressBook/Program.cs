@@ -24,10 +24,25 @@ using System;
 
 //Refactor Code of MultipleCompany
 
-RefactorToAddMultipleAddressBook addressBook= new RefactorToAddMultipleAddressBook();
-addressBook.PersonDetails();
-addressBook.display();
-addressBook.EditContact();
-addressBook.DeleteContact();
-addressBook.CreateAddressBook();
-addressBook.ChangeAddressBook();
+//RefactorToAddMultipleAddressBook addressBook= new RefactorToAddMultipleAddressBook();
+//addressBook.PersonDetails();
+//addressBook.display();
+//addressBook.EditContact();
+//addressBook.DeleteContact();
+//addressBook.CreateAddressBook();
+//addressBook.ChangeAddressBook();
+
+//Checking Of an DuplicateEnrty in Addressbook
+CheckingOfDuplicateEntry CheckingOfDuplicate=new CheckingOfDuplicateEntry();
+CheckingOfDuplicate.PersonDetails();
+CheckingOfDuplicate.AddContact();
+CheckingOfDuplicate.ViewContact();
+CheckingOfDuplicate.EditContact();
+CheckingOfDuplicate.DeleteContact();
+CheckingOfDuplicate.CreateAddressBook();
+CheckingOfDuplicate.ChangeAddressBook();
+CheckingOfDuplicate.Display();
+CheckingOfDuplicate.EditContact();
+CheckingOfDuplicate.DeleteContact();
+CheckingOfDuplicate.CreateAddressBook();
+CheckingOfDuplicate.Display();
